@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Proyecto.LoginPage">
+
+     <StackLayout Orientation="Vertical"
+                     Margin="20" BackgroundColor=" White">
+
+            <StackLayout BackgroundColor=" White"
+                          Margin="10">
+
+               
+            </StackLayout>
+
+            <StackLayout BackgroundColor="LightGray"
+                         Margin="20" x:Name="Panel3"
+                         VerticalOptions="Center" 
+                      >
+
+            
+                   <Entry  x:Name="userEntry" Placeholder="Ingrese Usuario" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+                   <Entry  x:Name="passwordEntry" Placeholder="Ingrese Clave" IsPassword="true" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                
+          
+                <Button Text="Ingresar" x:Name="btnIgresar" Clicked="Login_Clicked"/>
+                <Button Text="Registrar" x:Name="btnRegistrar"/>
+                
+            </StackLayout>    
+        </StackLayout>  
+    
+</ContentPage>
